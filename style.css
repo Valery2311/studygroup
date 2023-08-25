@@ -1,5 +1,42 @@
 .header {
-    text-decoration: solid;
-    text-shadow: 1cm;
-    color: red;
+    height: 10vh;
+    
+}
+
+.main-section {
+    height: 60vh;
+    display: flex;
+}
+
+.left-main {
+    height: 100%;
+    width: 60%;
+}
+
+.right-main {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-main-top {
+    height: 70%;
+}
+
+.right-main-border {
+    height: 30%;
+}
+
+.additional-section {
+    height: 20vh;
+}
+
+.footer {
+    height: 10vh;
+}
+
+.header, .footer,.right-main-top,.right-main-border, .main-section, .right-main, .additional-section, .left-main {
+    border: solid black 1px;
+    text-align: center;
 }
