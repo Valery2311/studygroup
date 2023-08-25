@@ -12,7 +12,7 @@
 .left-main {
     height: 100%;
     width: 60%;
-    background-color: aqua;
+   
     background-color: aqua;
 }
 
@@ -30,7 +30,7 @@
 
 .right-main-border {
     height: 30%;
-    background-color: blueviolet;
+    
     background-color: blueviolet;
 }
 
@@ -42,7 +42,7 @@
 .footer {
     height: 10vh;
     background-color: cadetblue;
-    background-color: cadetblue;
+   
 }
 
 .header, .footer,.right-main-top,.right-main-border, .main-section, .right-main, .additional-section, .left-main {
