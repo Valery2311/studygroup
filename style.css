@@ -1,6 +1,6 @@
 .header {
     height: 10vh;
-    
+    background-color: antiquewhite;
 }
 
 .main-section {
@@ -11,6 +11,7 @@
 .left-main {
     height: 100%;
     width: 60%;
+    background-color: aqua;
 }
 
 .right-main {
@@ -22,18 +23,22 @@
 
 .right-main-top {
     height: 70%;
+    background-color: bisque;
 }
 
 .right-main-border {
     height: 30%;
+    background-color: blueviolet;
 }
 
 .additional-section {
     height: 20vh;
+    background-color: beige;
 }
 
 .footer {
     height: 10vh;
+    background-color: cadetblue;
 }
 
 .header, .footer,.right-main-top,.right-main-border, .main-section, .right-main, .additional-section, .left-main {
