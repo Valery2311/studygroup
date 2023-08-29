@@ -13,7 +13,7 @@
     height: 100%;
     /* width: 60%; */
    
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .main-img {
@@ -23,6 +23,19 @@
     left: 0;
 
 
+}
+
+.middle-main {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-main-border {
+    height: 100%;
+    
+    background-color: rgb(20, 19, 19);
 }
 
 .right-main {
