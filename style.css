@@ -16,6 +16,15 @@
     background-color: aqua;
 }
 
+.main-img {
+    height: 100%;
+    
+    position: relative;
+    left: 0;
+
+
+}
+
 .right-main {
     height: 100%;
     width: 40%;
