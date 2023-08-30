@@ -10,8 +10,8 @@
 }
 
 .text {
-    font-size: medium;
-    font-style: italic;
+    font-size: 25px;
+    font-style: oblique;
     font-weight: 500;
 }
 .left-main {
@@ -78,6 +78,11 @@
 }
 
 .header, .footer,.right-main-top,.right-main-border, .main-section, .right-main, .additional-section, .left-main {
-    border: solid black 1px;
+    /* border: solid black 1px; */
     text-align: center;
+}
+
+.header {
+    font-style: italic;
+    font-weight: 700;
 }
