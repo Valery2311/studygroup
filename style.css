@@ -1,7 +1,11 @@
 .header {
     height: 10vh;
     background-color: antiquewhite;
-    background-color: antiquewhite;
+    
+}
+
+.middle-main {
+    color: #319982;
 }
 
 .main-section {
@@ -9,6 +13,11 @@
     display: flex;
 }
 
+.text {
+    font-size: medium;
+    font-style: italic;
+    font-weight: 500;
+}
 .left-main {
     height: 100%;
     /* width: 60%; */
@@ -51,10 +60,14 @@
     
 }
 
+.right-main-top-text {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
 .right-main-border {
     height: 30%;
-    
-    background-color: blueviolet;
 }
 
 .additional-section {
