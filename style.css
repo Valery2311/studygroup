@@ -1,11 +1,14 @@
+
+
 body {
-    background-color: rgb(122, 199, 235);
+    /* box-sizing: border-box; */
+    background-color: rgb(250, 239, 205);
 }
 
 
 .header {
     height: 10vh;
-    background-color: antiquewhite;
+    background-color: rgb(48, 198, 253);
     border: solid black 1px;
     margin-bottom: 5px;
     
@@ -36,6 +39,7 @@ h1 {
 }
 
 .middle {
+    background-color: rgb(122, 199, 235);
     height: 100%;
     /* width: 60%; */
     display: flex;
@@ -86,9 +90,10 @@ h1 {
 }
 
 .main-section-bottom {
+    /* background-color: rgb(196, 250, 115); */
     height: 60vh;
     display: flex;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     margin-top: 10px;
     /* display: flex; */
 }
@@ -97,7 +102,7 @@ h1 {
     height: 100%;
     width: 20%;
     margin: 0px 10px 10px 0px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 0px 10px 0px 0px;
     /* display: inline-block; */
 }
@@ -129,14 +134,15 @@ h1 {
     height: 100%;
     width: 45%;
     /* margin: 0px auto; */
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 0px 10px 0px 0px;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .main-section-bottom-middle-top {
     height: 35%;
-    width: 90%;
+    /* width: 95%; */
     border: solid black 1px;
     padding: 15px;
     margin-top: 0px;
@@ -144,46 +150,133 @@ h1 {
 
 .main-section-bottom-middle-bottom{
     height: 25%;
-    width: 90%;
+    /* width: 95%; */
     border: solid black 1px;
     padding: 15px;
     margin-top: 15px;
 }
 
 .main-section-bottom-middle-bottom-b {
-    height: auto;
-    margin-top: 10px;
-    border: solid black 1px;
-    /* margin: 0 auto; */
-    /* display: inline-block; */
+    height: 20%;
+    /* border: solid black 1px; */
+    /* padding: 15px; */
+    margin-top: 15px;
+    display: flex;
+
+    
 }
 
 .main-section-bottom-middle-bottom-b-1 {
-    height: 25%;
-    width: 90%;
+    height: 85%;
+    width: 30%;
     border: solid black 1px;
-    padding: 15px;
-    margin-top: 15px;
+
+    padding: 15px 5px 0px 15px;
+    /* margin-top: 15px; */
     /* margin: 0 auto; */
-    display: inline-block;
+    /* display: inline; */
 }
 
-.mmain-section-bottom-middle-bottom-b-2 {
-    height: 25%;
-    width: 90%;
+.main-section-bottom-middle-bottom-b-2 {
+    height: 85%;
+    width: 32%;
     border: solid black 1px;
-    padding: 15px;
-    margin-top: 15px;
-    display: inline-block;
+    margin: 0px 30px 0px 30px;
+    padding: 15px 5px 0px 15px;
+    /* padding: 15px; */
+    /* margin-top: 15px; */
+    /* display: inline; */
 }
 
 .main-section-bottom-middle-bottom-b-3 {
-    height: 25%;
-    width: 90%;
+    height: 85%;
+    width: 30%;
     border: solid black 1px;
-    padding: 15px;
-    margin-top: 15px;
-    display: inline-block;
+    padding: 15px 5px 0px 15px;
+    /* margin-top: 15px; */
+    /* display: inline; */
+}
+
+.main-section-bottom-middle-right {
+    /* display: flex; */
+    height: 100%;
+    width: 50%;
+}
+
+.main-section-bottom-middle-right-top {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    margin: 0px;
+}
+
+.main-section-bottom-middle-right1 {
+    height: 85%;
+    width: 40%;
+    border: solid black 1px;
+    padding: 15px 5px 0px 15px;
+    display: inline;
+    
+}
+
+.main-section-bottom-middle-right2 {
+    height: 85%;
+    width: 20%;
+    border: solid black 1px;
+    padding: 15px 5px 0px 15px;
+    display: inline;
+    margin: 0px 5px 0px 5px;
+}
+
+.main-section-bottom-middle-right3 {
+    height: 85%;
+    width: 39%;
+    border: solid black 1px;
+    padding: 15px 5px 0px 15px;
+    /* display: inline; */
+}
+
+.main-section-bottom-middle-right-middle {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.main-section-bottom-middle-right-middle1 {
+    height: 85%;
+    width: 70%;
+    border: solid black 1px;
+    padding: 15px 5px 0px 15px;
+    /* display: inline; */
+    margin: 0px 5px 0px 0px;
+}
+
+.main-section-bottom-middle-right-middle2 {
+    height: 85%;
+    width: 29%;
+    border: solid black 1px;
+    padding: 15px 5px 0px 15px;
+    /* display: inline; */
+    /* margin: 0px 35px 0px 0px; */
+}
+
+.main-section-bottom-middle-right-boot {
+    display: flex;
+    height: 25%;
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;    
+}
+
+.main-section-bottom-middle-right-boot1 {
+    padding: 15px 5px 0px 0px;
+    height: 107%;
+    width: 100%;
+    border: solid black 1px;
+
 }
 
 .additional-section {
