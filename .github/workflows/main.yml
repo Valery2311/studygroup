@@ -10,7 +10,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Update website
+      - name: Update-website
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
@@ -21,5 +21,14 @@ jobs:
             cd /var/www/html/valera/
             git checkout main
             git pull
+  notify:
+    needs: deploy
+    name: Notify
+    runs-on: ubuntu-latest
+    steps:
+      - name: notify
+        run: echo Done!
+    
+        
       
       
