@@ -10,13 +10,16 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Print hello
+      - name: Update website
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: whoami
+          script: |
+            cd /var/www/html/valera/
+            git checkout main
+            git pull
       
       
